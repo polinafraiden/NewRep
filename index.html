@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,800|Poppins:400,500" rel="stylesheet">
+        <link rel="stylesheet" href="./css/site.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body style="max-width: 1920px;">
+        <header id="header" class="flex-container">
+            <div class="left-controls"> 
+                <button class="icon-button"><i class="fas fa-bars"></i></button>
+                <div class="panel"></div>
+                <a href="#" class="link-font clients-link">CLIENTS</a>
+                <a href="#" class="link-font">NEWS</a>
+            </div> 
+            <div class="search-controls">
+                <button class="icon-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="site-title nunito-extrabold">MITALENT</div>
+        </header>
+
+        <section class="first-screen">
+            <div class="rectangle-with-bg"></div>
+            <div class="main-content flex-container">
+                <div class="slider-meta">
+                    <div class="person-info">
+                        <h1 class="person-name poppins-regular">Derek Anderson</h1>
+                        <div class="person-job nunito-semibold">British Comedian</div>
+                    </div>
+                    <div class="slider-controls">
+                        <ul class="slider-pages nunito-extrabold">
+                            <li id="qq" class="slider-page">01</li>
+                            <li class="slider-page active">02</li>
+                            <li class="slider-page">03</li>
+                            <li class="slider-page">04</li>
+                        </ul>
+                        <div class="slider-arrows">
+                            <i class="fas fa-long-arrow-alt-left slider-left-arrow" onclick="doSlide(-1)"></i>
+                            <i class="fas fa-long-arrow-alt-right slider-right-arrow" onclick="doSlide(1)"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-content">
+                    <div class="slide-video"></div>
+                    <div class="slide-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="slide-title nunito-extrabold" >
+                        Enquire about Derek
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-screen">
+            <div class="rectangle-with-bg-second-screen"></div>
+            <div class="profile-content-tabs">
+                    <button class="tablink nunito-extrabold" onclick="openInfo('Profile')" id="defaultOpen">Profile</button>
+                    <button class="tablink nunito-extrabold" onclick="openInfo('Press')">Press</button>
+                    <button class="tablink nunito-extrabold" onclick="openInfo('Awards')">Awards</button>
+                    <button class="tablink nunito-extrabold" onclick="openInfo('Credits')">Credits</button>
+                <div id="Profile" class="tabcontent">
+                    <h1>Profile.</h1>
+                    <p>London is the capital city of England.</p>
+                  </div>
+                <div id="Press" class="tabcontent">
+                    <h1>Press.</h1>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Award" class="tabcontent">
+                    <h1>Award.</h1>
+                    <p>London is the capital city of England.</p>
+                  </div>
+                <div id="Credits" class="tabcontent">
+                    <h1>Credits.</h1>
+                    <p>London is the capital city of England.</p>
+                </div>
+            </div>
+                <ul class="social-buttons">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="third-screen">
+            <div class="video-information-third-screen">
+                <div class="person-name-third-screen">
+                    <h1 class="person-name-tscreen poppins-regular">Derek Anderson <br> on Press</h1>
+                </div>
+                <div class="videos-third-screen">
+                    <div class="first-video-container">
+                        <div class="video-first"></div>
+                        <div class="video-first-info">
+                            <p class="quotes-first-info poppins-medium">29 Motivational Quotes For Business And Other Work Environments</p>
+                        </div>
+                        <div class="video-first-date">
+                            <date class="date-quotes nunito-regular">8 march 2020</date>
+                        </div>
+                    </div>
+                    <div class="second-video-container">
+                        <div class="video-second"></div>
+                        <div class="video-second-info">
+                            <p class="quotes-second-info poppins-medium"> 5 Reasons To Keep Your Beauty Salon Reservation</p>
+                        </div>
+                        <div class="video-second-date">
+                            <date class="date-quotes nunito-regular">8 march 2020</date>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-explore nunito-extrabold">
+                    <button>Explore more</button>
+                </div>
+            </div>
+            <div class="person-photo-third-screen"></div>
+        </section>
+
+        <section class="fourth-container">
+            <div class="clients-label">
+                <h1 class="clients-more poppins-regular">Similar Clients</h1>
+            </div>
+            <div class="client-border">
+                <div class="border"></div>
+            </div>
+            <div class="clients-info-more">
+                <p class="clients-info nunito-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="button-clients-more nunito-extrabold">
+                <button>Explore more</button>
+            </div>
+
+        </section>
+
+        <section class='fifth-container'>
+            <div class="gallery-container">
+                <div class="gallery-item profile-one"></div>
+                <div class="gallery-item profile-two"></div>
+                <div class="gallery-item profile-tree"></div>
+                <div class="gallery-item profile-four"></div>
+                <div class="gallery-item profile-five"></div>
+                <div class="gallery-item profile-six"></div>
+                <div class="gallery-item profile-seven"></div>
+                <div class="gallery-item profile-eight"></div>
+            </div>
+        </section>
+
+        
+
+
+       
+
+        <script 
+            src="https://code.jquery.com/jquery-3.4.0.min.js"
+            integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+            crossorigin="anonymous"></script>
+
+        <script src="site.js"></script>
+
+    </body>
+</html>
