@@ -11,7 +11,7 @@ const leftArrowElement= document.querySelector('.slider-left-arrow');
 const rightArrowElement= document.querySelector('.slider-right-arrow');
 
 function doSlide(direction) {
-    let currentSlide = 3;
+    let currentSlide = 2;
     currentSlide += direction;
     document.querySelector('h1').innerText = slides[currentSlide].name;
     // change video
@@ -28,8 +28,8 @@ function doSlide(direction) {
 /*
 leftArrowElement.classList.addEventListener('click', function() {doSlide(-1)});
 rightArrowElement.addEventListener('click', function() {doSlide(1)})
-
 */
+
 /*
 function openInfo(evt, profileInfo) {
     var i, tabcontent, tablinks;
@@ -54,10 +54,14 @@ function openInfo(evt, profileInfo) {
     }
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].style.backgroundColor = "";
+      tablinks[i].style.backgroundColor = "none";
     }
     document.getElementById(profileInfo).style.display = "block";
+
   }
+
+
+
 
   httpGet('https://jsonplaceholder.typicode.com/users').then(response => {
     if (response && response.length) {

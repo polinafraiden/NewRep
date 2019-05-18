@@ -1,0 +1,22 @@
+{
+  "name": "mitalent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "site.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinafraiden/NewRep.git"
+  },
+  "author": "Polina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polinafraiden/NewRep/issues"
+  },
+  "homepage": "https://github.com/polinafraiden/NewRep#readme",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}

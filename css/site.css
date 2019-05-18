@@ -657,9 +657,54 @@ header .panel {
 
 .second-screen .tabcontent {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+  padding-left: 24px;
+  padding-top: 148px;
+}
+
+.second-screen h1 {
+  margin: inherit;
+  font-size: 60px;
+  padding-bottom: 38px;
+  color: #1a1a1d;
+}
+
+.second-screen h2 {
+  margin: inherit;
+  font-size: 24px;
+  color: #1a1a1d;
+}
+
+.second-screen .tabcontent .nomination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 27px;
+  padding-bottom: 56px;
+}
+
+.second-screen .tabcontent .nomination .fa-star {
+  padding-right: 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.second-screen .tabcontent .nomination .what-award {
+  font-size: 16px;
+  color: #1a1a1d;
+}
+
+.second-screen p {
+  margin: inherit;
+}
+
+.second-screen .information-about {
+  font-size: 16px;
+  color: #767679;
+  line-height: 1.88;
 }
 
 .third-screen {
