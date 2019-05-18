@@ -636,13 +636,11 @@ header .panel {
 .second-screen .tablink {
   background-color: inherit;
   color: #1a1a1d;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 12px;
-  width: 25%;
   line-height: 48px;
   letter-spacing: 2.4px;
 }
